@@ -3,11 +3,11 @@
 
 int main() {
 
-typedef int (bla)(); //blaaaaaaaaaaaaaaaaaa verste ihc nicht
+typedef int uintblupp;
 
-blaa  "bla";
-
-std::cout << bla << std::endl;
+uintblupp a = 1;
+int b = 2;
+std::cout << a <<'\n' <<b << std::endl;
 
   return 0;
 }
