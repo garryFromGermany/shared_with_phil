@@ -6,7 +6,7 @@ void sin (int resolution,double def_bereich){
     double y[resolution];
     for (int i = 0; i < resolution; i++) {
       y[i]= sin((i*def_bereich)/(double)resolution);
-      std::cout << x[i] << '\n';
+      std::cout << y[i] << '\n';
     }
 }
 
